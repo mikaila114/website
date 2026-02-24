@@ -143,7 +143,8 @@ main {
 }
 .section-p {
     color: #6b6b6b;
-
+    display: flex;
+    flex-wrap: wrap;
 }
 .views {
     display: flex;
