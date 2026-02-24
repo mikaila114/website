@@ -129,6 +129,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
     justify-content: center;
 }
 .header-section {
@@ -136,16 +137,12 @@ main {
 }
 .header-section h1 {
     color: black;
-    font-size: clamp(0.5rem, 5vw, 5rem);
 }
 .header-section h1 span {
     color: blue;
 }
 .section-p {
     color: #6b6b6b;
-    font-size: clamp(0.5rem, 3vw, 4rem);
-    margin-top: 50px;
-    margin-bottom: 50px;
 
 }
 .views {
@@ -253,7 +250,6 @@ main {
     color: black;
 }
 .featured {
-    font-size: 0.7em;
     padding: 5em 0em;
     display: flex;
     flex-direction: column;
@@ -269,7 +265,7 @@ main {
 }
 .head {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-direction: column;
     align-items: center;
 }
@@ -431,6 +427,11 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 100px;
+}
+.head2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .Expertise p {
     color: #6b6b6b;
