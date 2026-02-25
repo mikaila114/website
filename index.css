@@ -9,6 +9,7 @@
 body {
    font-family: "roboto";
    width: 100%;
+   background: #cecece;
 }
 header {
     z-index: 1;
